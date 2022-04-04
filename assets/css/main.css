@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
+@font-face {
+  font-family: Gulax;
+  src: url(../webfonts/Gulax.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -114,6 +123,9 @@ input, select, textarea {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
+		font-family: Gulax;
+		background-color: yellow;
+		color:black;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2296,7 +2308,6 @@ input, select, textarea {
 	}
 
 		#nav > ul {
-			line-height: 0px;
 			position: relative;
 			display: inline-block;
 			margin: 0;
@@ -2348,7 +2359,9 @@ input, select, textarea {
 					color: inherit;
 					font-size: 200%;
 					font-weight: 900;
-					font-family: 'Libre Baskerville', serif;
+					font-family: 'Gulax';
+					color:black;
+					background-color: yellow;
 				}
 
 				#nav > ul > li > ul {
